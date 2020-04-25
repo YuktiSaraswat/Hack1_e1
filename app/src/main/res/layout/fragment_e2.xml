@@ -30,11 +30,7 @@
                 android:layout_height="wrap_content"
                 android:text="Do's and Dont's\n\nWhat to Do Before an Earthquake"
                 android:textSize="18sp" />
-            <ImageButton
-                android:id="@+id/i"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_mic1" />
+
         </LinearLayout>
             <TextView
                 android:id="@+id/t2"

@@ -125,17 +125,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intentd);
         }
         else if(sr.contentEquals("emergency call") ) {
-            String no="9760955555";
-            Intent i=new Intent(Intent.ACTION_CALL);
-            i.setData(Uri.parse("tel:"+no));
-            if(ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE)!= PackageManager.PERMISSION_GRANTED)
-            {
 
-            }
-            startActivity(i);
         }
         else if(sr.contentEquals("map")) {
-            Intent intentd = new Intent(MainActivity.this, GoogleMapDemo.class);
+            Intent intentd = new Intent(MainActivity.this, UK_glance.class);
             startActivity(intentd);
         }
         else if(sr.contentEquals("register as NGO")) {
@@ -150,17 +143,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Invalid Search", Toast.LENGTH_SHORT).show();
         }
     }
-    public void ecall(View view)
-    {
-        String no="9760955555";
-        Intent i=new Intent(Intent.ACTION_CALL);
-        i.setData(Uri.parse("tel:"+no));
-        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE)!= PackageManager.PERMISSION_GRANTED)
-        {
 
-        }
-        startActivity(i);
-    }
 
 
 
@@ -191,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.M1:
                 Toast.makeText(this, "Map", Toast.LENGTH_SHORT).show();
-                Intent intentm = new Intent(MainActivity.this, GoogleMapDemo.class);
+                Intent intentm = new Intent(MainActivity.this, UK_glance.class);
                 startActivity(intentm);
                 return false;
             case R.id.M2:
@@ -266,16 +249,6 @@ public class MainActivity extends AppCompatActivity {
     {
         Intent intentl = new Intent(MainActivity.this, Login.class);
         startActivity(intentl);
-    }
-    public void relative(View view)
-    {
-        Intent intentn = new Intent(MainActivity.this, SendEmail.class);
-        startActivity(intentn);
-    }
-    public void relative1(View view)
-    {
-        Intent intentn = new Intent(MainActivity.this, DetailsForm.class);
-        startActivity(intentn);
     }
     public void nGO(View view)
     {

@@ -77,7 +77,7 @@ private DrawerLayout drawer;
         int id = item.getItemId();
 
         if (id == R.id.action_settings) {
-            Intent intent1 = new Intent(Biological.this, GoogleMapDemo.class);
+            Intent intent1 = new Intent(Biological.this, UK_glance.class);
             startActivity(intent1);
             return false;
         }

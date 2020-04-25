@@ -29,11 +29,7 @@
                 android:layout_height="wrap_content"
                 android:text="Do's    \n"
                 android:textSize="20sp" />
-            <ImageButton
-                android:id="@+id/i"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_mic1" />
+
         </LinearLayout>
 
             <TextView

@@ -22,11 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Emergency Kit\n\n"/>
-        <ImageButton
-            android:id="@+id/i"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_mic1" />
+
     </LinearLayout>
         <TextView
             android:id="@+id/t2"

@@ -88,7 +88,7 @@ public class Earthquake extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             Toast.makeText(this, "Map", Toast.LENGTH_SHORT).show();
-            Intent intentm = new Intent(Earthquake.this, GoogleMapDemo.class);
+            Intent intentm = new Intent(Earthquake.this, UK_glance.class);
             startActivity(intentm);
             return false;
         }
